@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interface/interact.sol": "SetNumber"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interface/interact.sol": {
+			"keccak256": "0xfa71511a1a7658ae35d04c28fb3a3197018780b489cbb7ccd58a0c4ec1c205ad",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b42fcac64e9f17ec97bbcfd9c6e16b13ede16dac0aebca5e7b4c350c80c2511f",
+				"dweb:/ipfs/QmboxaXaGkk9DU71eMc4JfVavXE7khoxrnqZ9LBvwN1Lfs"
+			]
+		}
+	},
+	"version": 1
+}
